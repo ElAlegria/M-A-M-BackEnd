@@ -6,7 +6,7 @@ const app = express();
 const mongoose = require('mongoose');
 // user
 const routerUser = require('./routes/users');
-const { createUser, LoginUser } = require('./constrollers/user');
+const { createUser, LoginUser } = require('./constrollers/User');
 const routerMusic = require('./routes/Music');
 const auth = require('./middlewares/auth');
 const { errorLoggerApp } = require('./middlewares/loggers');
