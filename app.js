@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const mongoose = require('mongoose');
 // user
-const routerUser = require('./routes/users');
+const routerUser = require('./routes/user');
 const { createUser, LoginUser } = require('./constrollers/User');
 const routerMusic = require('./routes/Music');
 const auth = require('./middlewares/auth');
